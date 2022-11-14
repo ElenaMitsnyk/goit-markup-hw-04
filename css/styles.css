@@ -34,6 +34,10 @@ list-style: 0;
 box-sizing: border-box;
 }
 
+*  {
+box-sizing: border-box;
+}
+
 body{
 font-family: 'Roboto', sans-serif;
 color: var(--color-background);
@@ -156,7 +160,7 @@ height: 50px;
 background: var(--color-change);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-border: 1px solid #2196F3;
+border: 1px solid var(--color-change);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
@@ -182,6 +186,21 @@ gap: 30px;
 .main-advantage-list {
 flex-basis: calc((100% - 90px) / 4);
 }
+
+.main-advantage-list::before {
+content: "";
+display: block;
+height: 120px;
+background-image: url();
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-color: var(--color-background-team);
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
+
 .main-advantage-title {
 font-size: 14px;
 line-height: 1.1428;
