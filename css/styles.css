@@ -82,15 +82,23 @@ color: var(--color-logo-second);
 .header-nav {
 list-style: none;
 display: flex;
-flex-wrap: wrap;
 gap: 50px;
-margin-right: 344px;
+margin-right: 288px;
 }
 .header-contact {
 list-style: none;
 display: flex;
-flex-wrap: wrap;
-gap: 50px;   
+align-items: center;
+}
+.header-contact-icons {
+    fill: var(--color-text);
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.header-contact-icons:hover,
+.header-contact-icons:focus {
+    fill: var(--color-change);
 }
 
 .header-nav-link {
