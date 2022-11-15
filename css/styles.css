@@ -328,6 +328,39 @@ line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--color-text);
 }
+
+.main-fifth {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var();
+    }
+    .klient {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  
+    }
+    .klient-title {
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    margin-bottom: 50px;
+    }
+
+.klient-list-link-icon {
+    padding: 16px 32px;
+    fill: var(--color-icons);
+    border: 1px solid;
+    border-color: var(--color-icons);
+    border-radius: 4px;
+}
+.klient-list-link-icon:hover,
+.klient-list-link-icon:focus {
+    border-color: var(--color-change);
+    fill: var(--color-change);
+}
+
 .portfolio {
 padding-top: 94px;
 padding-bottom: 94px;
