@@ -85,19 +85,23 @@ display: flex;
 gap: 50px;
 margin-right: 288px;
 }
-.header-contact {
-list-style: none;
-display: flex;
-align-items: center;
-}
+
+.contact {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    }
+
+
 .header-contact-icons {
     fill: var(--color-text);
     margin-right: 10px;
-    margin-left: 30px;
+
 }
 
-.header-contact-icons:hover,
-.header-contact-icons:focus {
+.header-contact:hover .header-contact-icons, 
+.header-contact:focus .header-contact-icons {    
     fill: var(--color-change);
 }
 
@@ -122,17 +126,20 @@ color: var(--color-change);
 .main-btn-portfolio {
 color: var(--color-change);
 }
-.header-contact{
+.header-contact {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1428;
 letter-spacing: 0.02em;
 color: var(--color-text);
+gap: 30px;
 }
+
 .header-contact:hover,
 .header-contact:focus {
 color: var(--color-change);
 }
+
 .page-header .container {
 display: flex;
 align-items: center;
