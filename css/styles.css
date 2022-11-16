@@ -89,7 +89,6 @@ margin-right: 288px;
 .contact {
     list-style: none;
     display: flex;
-    align-items: center;
     gap: 30px;
     }
 
@@ -97,7 +96,6 @@ margin-right: 288px;
 .header-contact-icons {
     fill: var(--color-text);
     margin-right: 10px;
-
 }
 
 .header-contact:hover .header-contact-icons, 
@@ -206,9 +204,11 @@ flex-basis: calc((100% - 90px) / 4);
 }
 
 .advantage-list-link {
-    display: block;
+    display: flex;
+    width: 270px;
     height: 120px;
-    padding: 25px 100px;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color-background-team);
     border-radius: 4px;
     background-position: center;
